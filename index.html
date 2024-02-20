@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Verificação de Aplicação</title>
+</head>
+<body>
+
+    <div id="container">
+
+        <header>
+            <img src="./imgs/slim_3d_impressoras_logo.jpg" alt="Logo da Slim 3D">
+            <h1>Verificação de Aplicação</h1>
+        </header>
+
+        <section id="areaSelection">
+            <label for="area">Área de Aplicação:</label>
+            <select id="area" onchange="updateMachines()">
+                <option value="odontologia">Odontologia</option>
+                <option value="hobbysta">Hobbysta</option>
+                <option value="industria">Indústria</option>
+            </select>
+        </section>
+
+        <section id="experienceSelection">
+            <label for="experience">Nível de Experiência:</label>
+            <select id="experience">
+                <option value="iniciante">Iniciante</option>
+                <option value="experiente">Experiente</option>
+            </select>
+        </section>
+
+        <section id="printerPreference" style="display: none;">
+            <label for="printer">Preferência de Impressora:</label>
+            <select id="printer">
+                <option value="resina">Resina</option>
+                <option value="filamento">Filamento</option>
+            </select>
+        </section>
+
+        <section id="machinesList">
+            <h2>Máquinas Recomendadas:</h2>
+            <ul id="machines"></ul>
+        </section>
+
+        <button id="submitButton">Enviar</button>
+        <button id="resetButton">Resetar</button>
+
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>

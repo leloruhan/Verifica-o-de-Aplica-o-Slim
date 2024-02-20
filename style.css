@@ -1,0 +1,96 @@
+body {
+    background: linear-gradient(to bottom, #4CAF50, #ffffff);
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 400px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+header img {
+    width: 100px; /* Ajuste o tamanho conforme necessário */
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid black;
+    box-shadow: 0 0 30px rgba(0, 255, 0, 0.5); /* Sombra verde claro */
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+select, input[type="radio"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #ffffff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#machinesList {
+    display: none; /* Inicialmente oculto */
+}
+
+#machines {
+    list-style: none;
+    padding: 0;
+}
+
+#machines li {
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#resetButton {
+    background-color: #ff0000;
+    color: #ffffff;
+    margin-top: 10px;
+}
+
+#resetButton:hover {
+    background-color: #cc0000;
+}
+
+#experienceSelection {
+    display: flex;
+    align-items: center; /* Alinhar verticalmente */
+}
+
+#experienceSelection label {
+    margin-right: 10px; /* Espaçamento entre o label e o input */
+}
