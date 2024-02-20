@@ -2,8 +2,10 @@
 Programinha Baseado em verificar aplicação do cliente e sugerir impressoras 3D de acordo com o que ele preencher
 
 
-TÉCNOLOGIAS ULTILIZADAS.
+TÉCNOLOGIAS ULTILIZADAS:
 
 HTML 
+
 CSS
+
 JAVASCRIPT
